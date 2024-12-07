@@ -1,0 +1,177 @@
+name: habbit_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.3
+  firebase_core: ^3.8.0
+  lottie: ^3.1.3
+  cloud_firestore: ^5.5.0
+  sign_in_button: ^3.2.0
+  google_sign_in: ^6.2.2
+  provider: ^6.1.2
+  carousel_slider: ^5.0.0
+  intl: ^0.17.0
+  flutter_facebook_auth: ^7.1.1
+  dotted_dashed_line: ^0.0.3
+  fl_chart: ^0.69.2
+  simple_animation_progress_bar: ^1.8.2
+  simple_circular_progress_bar: ^1.0.2
+  google_nav_bar: ^5.0.7
+  animated_toggle_switch: ^0.8.3
+  readmore: ^3.0.0
+  calendar_agenda: ^0.0.2+3
+  # awesome_notifications: ^0.7.4+1
+  # flutter_localization: ^0.2.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/115895.560x420.jpg
+    - assets/images/photo_2024-02-25_14-42-04.jpg
+    - assets/images/Frame.png
+    - assets/images/Frame (1).png
+    - assets/images/Frame (2).png
+    - assets/images/Frame (3).png
+    - assets/images/Mask Group.png
+    - assets/images/Rectangle 5707.png
+    - assets/images/Vector.png
+    - assets/images/Vector (1).png
+    - assets/images/Vector (2).png
+    - assets/images/Group.png
+    - assets/images/Notification-Icon.png
+    - assets/images/Banner-Dots.png
+    - assets/images/Sleep-Graph.png
+    - assets/images/Workout1.png
+    - assets/images/Workout2.png
+    - assets/images/Workout3.png
+    - assets/images/complete_workout.png
+    - assets/images/u2.png
+    - assets/images/p_notification.png
+    - assets/images/more_btn.png
+    - assets/images/p_activity.png
+    - assets/images/p_achi.png
+    - assets/images/p_contact (1).png
+    - assets/images/p_privacy.png
+    - assets/images/p_workout.png
+    - assets/images/p_personal.png
+    - assets/images/p_next.png
+    - assets/images/pic_4.png
+    - assets/images/pic_5.png
+    - assets/images/detail_top.png
+    - assets/images/what_1.png
+    - assets/images/what_2.png
+    - assets/images/what_3.png
+    - assets/images/barbell.png
+    - assets/images/skipping_rope.png
+    - assets/images/bottle.png
+    - assets/images/img_1.png
+    - assets/images/img_2.png
+    - assets/images/ArrowLeft.png
+    - assets/images/burn.png
+    - assets/images/video_temp.png
+    - assets/images/m_1.png
+    - assets/images/m_2.png
+    - assets/images/m_3.png
+    - assets/images/m_4.png
+    - assets/images/c_1.png
+    - assets/images/c_2.png
+    - assets/images/c_3.png
+    - assets/images/c_4.png
+    - assets/images/f_1.png
+    - assets/images/f_2.png
+    - assets/images/rd_1.png
+    - assets/images/egg.png
+    - assets/images/proteins.png
+    - assets/images/carbo.png
+    - assets/images/flour.png
+    - assets/images/sugar.png
+    - assets/images/baking_soda.png
+    - assets/images/honey_pan.png
+    - assets/images/chicken.png
+    - assets/images/glass-of-milk 1.png
+    - assets/images/orange.png
+    - assets/images/apple_pie.png
+    - assets/images/salad.png
+    - assets/images/oatmeal.png
+    - assets/images/coffee.png
+    - assets/images/apple_pie.png
+    - assets/images/bed.png
+    - assets/images/alaarm.png
+    - assets/images/SleepGraph.png
+    - assets/images/sleep_schedule.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 700
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
